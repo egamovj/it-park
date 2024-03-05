@@ -312,36 +312,6 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
 }
-.block-cross-out__left-crosses::before,
-.block-cross-out__left-crosses::after,
-.block-cross-out__right-crosses::before,
-.block-cross-out__right-crosses::after {
-  content: "";
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  -webkit-mask: url(../img/icons/plus.svg) no-repeat 50% 50%;
-  mask: url(../img/icons/plus.svg) no-repeat 50% 50%;
-  -webkit-mask-size: cover;
-  mask-size: cover;
-  background-color: #fff;
-}
-.block-cross-out__left-crosses::before,
-.block-cross-out__right-crosses::before {
-  top: -9px;
-}
-.block-cross-out__left-crosses::after,
-.block-cross-out__right-crosses::after {
-  bottom: -9px;
-}
-.block-cross-out__left-crosses::before,
-.block-cross-out__left-crosses::after {
-  left: -9px;
-}
-.block-cross-out__right-crosses::before,
-.block-cross-out__right-crosses::after {
-  right: -9px;
-}
 
 .block-cross-in {
   width: 250px;
@@ -390,7 +360,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
 }
-.block-cross-in-link__left-elements::after,
+/* .block-cross-in-link__left-elements::after,
 .block-cross-in-link__right-elements::after {
   content: "";
   width: 16px;
@@ -401,7 +371,7 @@ body {
   -webkit-mask-size: cover;
   mask-size: cover;
   background-color: #fff;
-}
+} */
 .block-cross-in-link__left-elements::before,
 .block-cross-in-link__right-elements::before {
   top: 18px;
@@ -410,7 +380,7 @@ body {
 .block-cross-in-link__right-elements::after {
   bottom: 18px;
 }
-.block-cross-in-link__left-elements::before {
+/* .block-cross-in-link__left-elements::before {
   content: "";
   width: 16px;
   height: 16px;
@@ -420,7 +390,7 @@ body {
   -webkit-mask-size: cover;
   mask-size: cover;
   background-color: #fff;
-}
+} */
 .block-cross-in-link__right-elements::before {
   content: "";
   width: 16px;
