@@ -478,35 +478,6 @@
         },
       });
     }
-    if (document.querySelector(".stories-slider")) {
-      new Swiper(".stories-slider", {
-        observer: true,
-        observeParents: true,
-        autoHeight: false,
-        speed: 5e3,
-        allowTouchMove: true,
-        keyboard: true,
-        pagination: false,
-        centeredSlides: true,
-        navigation: false,
-        slidesPerView: "auto",
-        loop: true,
-        spaceBetween: 24,
-        freeMode: true,
-        autoplay: {
-          delay: 1,
-          disableOnInteraction: false,
-        },
-        breakpoints: {
-          320: {
-            spaceBetween: 16,
-          },
-          720: {
-            spaceBetween: 24,
-          },
-        },
-      });
-    }
   }
   function toggleComment() {
     let comments = document.querySelectorAll(".slide-comm__text");
